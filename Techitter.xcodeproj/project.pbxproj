@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59048F6B233C4412003A737E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59048F6A233C4412003A737E /* GoogleService-Info.plist */; };
+		59048F6F233C4A7B003A737E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59048F6E233C4A7B003A737E /* Post.swift */; };
+		59048F71233C4ABD003A737E /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59048F70233C4ABD003A737E /* AppUser.swift */; };
+		59048F74233DB66A003A737E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59048F72233DB66A003A737E /* CustomTableViewCell.swift */; };
+		59048F75233DB66A003A737E /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59048F73233DB66A003A737E /* CustomTableViewCell.xib */; };
 		5905CD5E2338A5E700251BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5905CD5D2338A5E700251BA4 /* AppDelegate.swift */; };
 		5905CD602338A5E700251BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5905CD5F2338A5E700251BA4 /* ViewController.swift */; };
 		5905CD632338A5E700251BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5905CD612338A5E700251BA4 /* Main.storyboard */; };
@@ -14,6 +19,10 @@
 		5905CD682338A5E900251BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5905CD662338A5E900251BA4 /* LaunchScreen.storyboard */; };
 		5905CD732338A5E900251BA4 /* TechitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5905CD722338A5E900251BA4 /* TechitterTests.swift */; };
 		5905CD7E2338A5E900251BA4 /* TechitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5905CD7D2338A5E900251BA4 /* TechitterUITests.swift */; };
+		5905CD8C2338B6E200251BA4 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5905CD8B2338B6E200251BA4 /* TweetViewController.swift */; };
+		943EF6D76586D76F9784BFF1 /* Pods_Techitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78555C562082ED5CD6B8F3D /* Pods_Techitter.framework */; };
+		D3883B1056D78CA2F470F848 /* Pods_TechitterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D5764F219C739F00AC1BE8 /* Pods_TechitterUITests.framework */; };
+		DADDAAB354E1399BCD434F16 /* Pods_TechitterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3ECB88A4E2DFA67455AE2A /* Pods_TechitterTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D5764F219C739F00AC1BE8 /* Pods_TechitterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechitterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D86E8A7A03404B1D603CAB3 /* Pods-TechitterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechitterTests.debug.xcconfig"; path = "Target Support Files/Pods-TechitterTests/Pods-TechitterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59048F6A233C4412003A737E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		59048F6E233C4A7B003A737E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		59048F70233C4ABD003A737E /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		59048F72233DB66A003A737E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		59048F73233DB66A003A737E /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		5905CD5A2338A5E700251BA4 /* Techitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5905CD5D2338A5E700251BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5905CD5F2338A5E700251BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,14 @@
 		5905CD792338A5E900251BA4 /* TechitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5905CD7D2338A5E900251BA4 /* TechitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechitterUITests.swift; sourceTree = "<group>"; };
 		5905CD7F2338A5E900251BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5905CD8B2338B6E200251BA4 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
+		5A2667CDFF3AED2DE07B58E3 /* Pods-TechitterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechitterTests.release.xcconfig"; path = "Target Support Files/Pods-TechitterTests/Pods-TechitterTests.release.xcconfig"; sourceTree = "<group>"; };
+		784592956F945DAABF374E5F /* Pods-TechitterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechitterUITests.debug.xcconfig"; path = "Target Support Files/Pods-TechitterUITests/Pods-TechitterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C39F0C0F58B7DA9FEA22F10 /* Pods-Techitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techitter.release.xcconfig"; path = "Target Support Files/Pods-Techitter/Pods-Techitter.release.xcconfig"; sourceTree = "<group>"; };
+		9FA5781F8E526939B388CC73 /* Pods-Techitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techitter.debug.xcconfig"; path = "Target Support Files/Pods-Techitter/Pods-Techitter.debug.xcconfig"; sourceTree = "<group>"; };
+		E78555C562082ED5CD6B8F3D /* Pods_Techitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Techitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01D0C00EDBB02DD7C618BCD /* Pods-TechitterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechitterUITests.release.xcconfig"; path = "Target Support Files/Pods-TechitterUITests/Pods-TechitterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA3ECB88A4E2DFA67455AE2A /* Pods_TechitterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TechitterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943EF6D76586D76F9784BFF1 /* Pods_Techitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADDAAB354E1399BCD434F16 /* Pods_TechitterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3883B1056D78CA2F470F848 /* Pods_TechitterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 				5905CD712338A5E900251BA4 /* TechitterTests */,
 				5905CD7C2338A5E900251BA4 /* TechitterUITests */,
 				5905CD5B2338A5E700251BA4 /* Products */,
+				A75B357EBA6106A14077576E /* Pods */,
+				BCE87FD890397F85EA230022 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +126,18 @@
 		5905CD5C2338A5E700251BA4 /* Techitter */ = {
 			isa = PBXGroup;
 			children = (
+				59048F6A233C4412003A737E /* GoogleService-Info.plist */,
 				5905CD5D2338A5E700251BA4 /* AppDelegate.swift */,
+				5905CD8B2338B6E200251BA4 /* TweetViewController.swift */,
 				5905CD5F2338A5E700251BA4 /* ViewController.swift */,
 				5905CD612338A5E700251BA4 /* Main.storyboard */,
 				5905CD642338A5E900251BA4 /* Assets.xcassets */,
 				5905CD662338A5E900251BA4 /* LaunchScreen.storyboard */,
 				5905CD692338A5E900251BA4 /* Info.plist */,
+				59048F6E233C4A7B003A737E /* Post.swift */,
+				59048F70233C4ABD003A737E /* AppUser.swift */,
+				59048F72233DB66A003A737E /* CustomTableViewCell.swift */,
+				59048F73233DB66A003A737E /* CustomTableViewCell.xib */,
 			);
 			path = Techitter;
 			sourceTree = "<group>";
@@ -125,6 +160,29 @@
 			path = TechitterUITests;
 			sourceTree = "<group>";
 		};
+		A75B357EBA6106A14077576E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FA5781F8E526939B388CC73 /* Pods-Techitter.debug.xcconfig */,
+				8C39F0C0F58B7DA9FEA22F10 /* Pods-Techitter.release.xcconfig */,
+				2D86E8A7A03404B1D603CAB3 /* Pods-TechitterTests.debug.xcconfig */,
+				5A2667CDFF3AED2DE07B58E3 /* Pods-TechitterTests.release.xcconfig */,
+				784592956F945DAABF374E5F /* Pods-TechitterUITests.debug.xcconfig */,
+				F01D0C00EDBB02DD7C618BCD /* Pods-TechitterUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCE87FD890397F85EA230022 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E78555C562082ED5CD6B8F3D /* Pods_Techitter.framework */,
+				FA3ECB88A4E2DFA67455AE2A /* Pods_TechitterTests.framework */,
+				06D5764F219C739F00AC1BE8 /* Pods_TechitterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5905CD822338A5E900251BA4 /* Build configuration list for PBXNativeTarget "Techitter" */;
 			buildPhases = (
+				5D907A29EC187DA37D0D2C55 /* [CP] Check Pods Manifest.lock */,
 				5905CD562338A5E700251BA4 /* Sources */,
 				5905CD572338A5E700251BA4 /* Frameworks */,
 				5905CD582338A5E700251BA4 /* Resources */,
+				5FBEE8B7D635BD4A7E17BD19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5905CD852338A5E900251BA4 /* Build configuration list for PBXNativeTarget "TechitterTests" */;
 			buildPhases = (
+				7B8200B364E22A5DD45A821A /* [CP] Check Pods Manifest.lock */,
 				5905CD6A2338A5E900251BA4 /* Sources */,
 				5905CD6B2338A5E900251BA4 /* Frameworks */,
 				5905CD6C2338A5E900251BA4 /* Resources */,
@@ -167,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5905CD882338A5E900251BA4 /* Build configuration list for PBXNativeTarget "TechitterUITests" */;
 			buildPhases = (
+				6AFAB07BC2891F8F64749FD8 /* [CP] Check Pods Manifest.lock */,
 				5905CD752338A5E900251BA4 /* Sources */,
 				5905CD762338A5E900251BA4 /* Frameworks */,
 				5905CD772338A5E900251BA4 /* Resources */,
@@ -230,7 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5905CD682338A5E900251BA4 /* LaunchScreen.storyboard in Resources */,
+				59048F6B233C4412003A737E /* GoogleService-Info.plist in Resources */,
 				5905CD652338A5E900251BA4 /* Assets.xcassets in Resources */,
+				59048F75233DB66A003A737E /* CustomTableViewCell.xib in Resources */,
 				5905CD632338A5E700251BA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +315,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D907A29EC187DA37D0D2C55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Techitter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FBEE8B7D635BD4A7E17BD19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Techitter/Pods-Techitter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Techitter/Pods-Techitter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Techitter/Pods-Techitter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AFAB07BC2891F8F64749FD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechitterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B8200B364E22A5DD45A821A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TechitterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5905CD562338A5E700251BA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59048F74233DB66A003A737E /* CustomTableViewCell.swift in Sources */,
 				5905CD602338A5E700251BA4 /* ViewController.swift in Sources */,
+				59048F71233C4ABD003A737E /* AppUser.swift in Sources */,
 				5905CD5E2338A5E700251BA4 /* AppDelegate.swift in Sources */,
+				5905CD8C2338B6E200251BA4 /* TweetViewController.swift in Sources */,
+				59048F6F233C4A7B003A737E /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +584,7 @@
 		};
 		5905CD832338A5E900251BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA5781F8E526939B388CC73 /* Pods-Techitter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +603,7 @@
 		};
 		5905CD842338A5E900251BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C39F0C0F58B7DA9FEA22F10 /* Pods-Techitter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +622,7 @@
 		};
 		5905CD862338A5E900251BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D86E8A7A03404B1D603CAB3 /* Pods-TechitterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +644,7 @@
 		};
 		5905CD872338A5E900251BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2667CDFF3AED2DE07B58E3 /* Pods-TechitterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +666,7 @@
 		};
 		5905CD892338A5E900251BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784592956F945DAABF374E5F /* Pods-TechitterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +687,7 @@
 		};
 		5905CD8A2338A5E900251BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01D0C00EDBB02DD7C618BCD /* Pods-TechitterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
