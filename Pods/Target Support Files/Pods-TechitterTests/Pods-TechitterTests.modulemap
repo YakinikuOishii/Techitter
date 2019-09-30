@@ -1,0 +1,6 @@
+framework module Pods_TechitterTests {
+  umbrella header "Pods-TechitterTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

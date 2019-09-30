@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>507052139422-6suc1h7shk4d3vpu186v15cnb93qtocj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.507052139422-6suc1h7shk4d3vpu186v15cnb93qtocj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDaXLeoXMLjKY4HoxJ6Z9mmYui3BaajQ-s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>507052139422</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mikukasahara.Techitter</string>
+	<key>PROJECT_ID</key>
+	<string>techitter-fd91c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>techitter-fd91c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:507052139422:ios:7333e769171fc6a08bac8f</string>
+	<key>DATABASE_URL</key>
+	<string>https://techitter-fd91c.firebaseio.com</string>
+</dict>
+</plist>
